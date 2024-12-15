@@ -1,0 +1,59 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+abstract class  LocaleKeys {
+  static const appName = 'appName';
+  static const skip = 'skip';
+  static const next = 'next';
+  static const createAccount = 'createAccount';
+  static const loginNow = 'loginNow';
+  static const welcome = 'welcome';
+  static const welcomeBack = 'welcomeBack';
+  static const fristName = 'fristName';
+  static const lastName = 'lastName';
+  static const emailAddress = 'emailAddress';
+  static const password = 'password';
+  static const iHaveAgreeToOurTermsAndCondition = 'iHaveAgreeToOurTermsAndCondition';
+  static const signUp = 'signUp';
+  static const signIn = 'signIn';
+  static const alreadyHaveAnAccount = 'alreadyHaveAnAccount';
+  static const dontHaveAnAccount = 'dontHaveAnAccount';
+  static const forgotPassword = 'forgotPassword';
+  static const recommendations = 'recommendations';
+  static const aboutAncientEgypt = 'aboutAncientEgypt';
+  static const ancientEgyptWars = 'ancientEgyptWars';
+  static const searchDeepIntoTheHistory = 'searchDeepIntoTheHistory';
+  static const recent = 'recent';
+  static const profile = 'profile';
+  static const account = 'account';
+  static const editProfile = 'editProfile';
+  static const notification = 'notification';
+  static const general = 'general';
+  static const settings = 'settings';
+  static const security = 'security';
+  static const privacyPolicy = 'privacyPolicy';
+  static const logOut = 'logOut';
+  static const bazar = 'bazar';
+  static const historyBooks = 'historyBooks';
+  static const historicalSouvenirs = 'historicalSouvenirs';
+  static const myCart = 'myCart';
+  static const totalPayment = 'totalPayment';
+  static const checkoutNow = 'checkoutNow';
+  static const checkoutScreen = 'checkoutScreen';
+  static const deliveryAddress = 'deliveryAddress';
+  static const change = 'change';
+  static const items = 'items';
+  static const selectedProduct = 'selectedProduct';
+  static const paymentMethod = 'paymentMethod';
+  static const confirmPayment = 'confirmPayment';
+  static const orderSuccess = 'orderSuccess';
+  static const thankYou = 'thankYou';
+  static const backToHome = 'backToHome';
+  static const forgotPasswordPage = 'forgotPasswordPage';
+  static const sendVerificationCode = 'sendVerificationCode';
+  static const verificationNow = 'verificationNow';
+  static const resendCode = 'resendCode';
+  static const verifyAccount = 'verifyAccount';
+  static const enter4DigitCodeWeHaveSentTo = 'enter4DigitCodeWeHaveSentTo';
+  static const haventReceivedVerificationCode = 'haventReceivedVerificationCode';
+
+}
