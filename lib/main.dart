@@ -1,3 +1,4 @@
+import 'package:dalel/core/utils/app_assets.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +13,9 @@ class Dalel extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'DalelApp',
+      home: Scaffold(
+        body: Image.asset(AppAssets.FlotterLogo),
+      ),
     );
   }
 }
