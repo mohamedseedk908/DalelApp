@@ -12,11 +12,13 @@ class OnboardingScreen extends StatelessWidget {
       child: Scaffold(
         body:Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: Column(
+          child: ListView(
+            physics: PageScrollPhysics(),
             children: [
               SizedBox(height: 40,),
               CustomNavBar(),
               OnBoardingBody(),
+              SizedBox(height: 88,),
               CustomButton(),
               SizedBox(height: 17,)
             ],

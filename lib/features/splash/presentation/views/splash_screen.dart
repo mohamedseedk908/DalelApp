@@ -1,4 +1,3 @@
-import 'package:dalel/core/utils/app_text_styles.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import '../../../../core/functions/navigations.dart';
@@ -35,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Text(
               LocaleKeys.appName.tr(),
-            )
+            ),
           ],
         ),
       ),
@@ -46,7 +45,7 @@ void delayedNavigate(context) {
   Future.delayed(
     const Duration(seconds: 3),
         () {
-      customNavigate(context,"/OnboardingScreen");
+      customReplacementNavigate(context,"/OnboardingScreen");
     },
   );
 }
