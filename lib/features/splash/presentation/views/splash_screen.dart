@@ -35,7 +35,6 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Text(
               LocaleKeys.appName.tr(),
-              style: CustomTextStyles.pacificoWeight400Size64,
             )
           ],
         ),
