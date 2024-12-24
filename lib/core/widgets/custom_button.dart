@@ -4,9 +4,10 @@ import 'package:dalel/core/utils/locale_keys.g.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, this.color, this.text});
+    const CustomButton({super.key, this.color, this.text,  this.onPressed, });
   final Color? color;
   final String? text;
+  final VoidCallback? onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class CustomButton extends StatelessWidget {
       width: double.infinity,
       height: 56,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: ElevatedButton.styleFrom(
             backgroundColor: color ?? AppColors.black,
             shape: RoundedRectangleBorder(

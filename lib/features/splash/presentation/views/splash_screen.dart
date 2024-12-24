@@ -1,3 +1,4 @@
+import 'package:dalel/core/utils/app_assets.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import '../../../../core/functions/navigations.dart';
@@ -32,9 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              LocaleKeys.appName.tr(),
-            ),
+            Image.asset(AppAssets.onBairding3)
           ],
         ),
       ),
