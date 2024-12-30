@@ -12,7 +12,7 @@ class CustomNavBar extends StatelessWidget {
       alignment: Alignment.centerRight,
       child: GestureDetector(
         onTap: onTap,
-        child: Text(
+        child: const Text(
           LocaleKeys.skip,
           style: CustomTextStyles.poppins300style16,
         ),

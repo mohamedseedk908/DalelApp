@@ -4,6 +4,8 @@ import 'package:dalel/features/on_boarding/presentation/viows/widgets/get_button
 import 'package:dalel/features/on_boarding/presentation/viows/widgets/on_boarding_body.dart';
 import 'package:flutter/material.dart';
 
+import 'functions/on_boarding.dart';
+
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
@@ -29,6 +31,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
               CustomNavBar(
                 onTap: () {
+                  onBoardingVisited();
                   customReplacementNavigate(context, "/signUp");
                 },
               ),

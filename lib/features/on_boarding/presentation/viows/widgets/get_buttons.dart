@@ -4,10 +4,11 @@ import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/utils/locale_keys.g.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../data/models/on_boarding_model.dart';
+import '../functions/on_boarding.dart';
+
 
 class GetButtons extends StatelessWidget {
-  const GetButtons(
-      {super.key, required this.currentIndex, required this.controller});
+  const GetButtons({super.key, required this.currentIndex, required this.controller});
   final int currentIndex;
   final PageController controller;
   @override
@@ -18,12 +19,14 @@ class GetButtons extends StatelessWidget {
           CustomButton(
             text: LocaleKeys.createAccount,
             onPressed: () {
+              onBoardingVisited();
               customReplacementNavigate(context, "/signUp");
             },
           ),
           const SizedBox(height: 16),
           GestureDetector(
             onTap: () {
+              onBoardingVisited();
               customReplacementNavigate(context, "/signIn");
             },
             child: Text(
